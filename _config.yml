@@ -4,9 +4,6 @@ baseurl: "" # 网站的子路径，例如 /blog/
 url: "" # 网站的基本主机名和协议
 # `http://<username>.github.io` - 适用于 GitHub
 
-# 设置默认的时间格式
-timezone: Asia/Shanghai
-
 blog:
   title: "ShengCaiTeam"
   description: >
@@ -78,6 +75,9 @@ defaults:
 exclude:
   - "README.md"
   - "README.html"
+
+# 设置时区
+timezone: Asia/Shanghai
 
 # https://github.com/jekyll/jekyll/issues/4619
 # Markdown 和高亮设置
