@@ -1,8 +1,7 @@
 # 基本博客设置
 baseurl: "" # 网站的子路径，例如 /blog/
 # 在 GitHub 上托管时设置为 ''
-url: "" # 网站的基本主机名和协议
-# `http://<username>.github.io` - 适用于 GitHub
+url: "https://ShengCaiTeam.github.io" # 网站的基本主机名和协议
 
 blog:
   title: "ShengCaiTeam"
@@ -48,9 +47,9 @@ plugins:
   - jekyll-seo-tag
 
 # 永久链接
-#设置了 permalink: posts/:slug 后，这篇文章的 URL 将会是： http://your-domain.com/posts/hello-world
+#设置了 permalink: posts/:slug 后，这篇文章的 URL 将会是： http://ShengCaiTeam.github.io/posts/hello-world
 permalink: posts/:slug
-#设置了 permalink: /:year/:month/:day/:slug/ 后，这篇文章的 URL 将会是： http://your-domain.com/2024/08/01/hello-world/
+#设置了 permalink: /:year/:month/:day/:slug/ 后，这篇文章的 URL 将会是： http://ShengCaiTeam.github.io/2024/08/01/hello-world/
 # permalink: /:year/:month/:day/:slug/
 # 文章
 excerpt_separator: "<!--break-->"
@@ -75,6 +74,7 @@ defaults:
 exclude:
   - "README.md"
   - "README.html"
+  - "vendor/"
 
 # 设置时区
 timezone: Asia/Shanghai
@@ -120,7 +120,3 @@ compress_html:
   profile: false
   ignore:
   envs: [local]
-
-  
-exclude:
-  - "vendor/"
