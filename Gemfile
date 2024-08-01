@@ -9,7 +9,6 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "kramdown-parser-gfm"
   gem "jekyll-seo-tag"
-  gem 'jekyll-timezone'
 end
 
 gem 'jekyll-admin', group: :jekyll_plugins
