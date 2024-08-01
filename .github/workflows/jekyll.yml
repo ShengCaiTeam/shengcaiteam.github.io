@@ -41,7 +41,7 @@ jobs:
         run: |
           bundle config set --local frozen false
           bundle install
-          bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+          bundle exec jekyll build
         env:
           JEKYLL_ENV: production
       - name: 上传构建产物
