@@ -4,6 +4,9 @@ baseurl: "" # 网站的子路径，例如 /blog/
 url: "" # 网站的基本主机名和协议
 # `http://<username>.github.io` - 适用于 GitHub
 
+# 设置默认的时间格式
+timezone: Asia/Shanghai
+
 blog:
   title: "ShengCaiTeam"
   description: >
