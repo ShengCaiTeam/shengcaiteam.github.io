@@ -5,10 +5,9 @@ url: "" # 网站的基本主机名和协议
 # `http://<username>.github.io` - 适用于 GitHub
 
 blog:
-  title: ShengCaiTeam
+  title: "ShengCaiTeam"
   description: >
-    关于[代码](/code).[生活](/life).[宇宙](/read)和[一切](/)。
-
+    "关于[代码](/code).[生活](/life).[宇宙](/read)和[一切](/)。"
   # 布局配置
   logo_path: "assets/img/dactl.svg" # logo 文件的路径
   search_path:
